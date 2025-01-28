@@ -2,6 +2,7 @@ $(function(){
 	$('.index-top-filter .filter-link').click(function() {
 		$('.index-top-filter .links').toggle();
 	});
+	
 	$('.menu .close').click(function() {
 		$('.menu').removeClass('opened');
 	});
