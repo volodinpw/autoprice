@@ -514,6 +514,9 @@ main {
   background: none;
   font-size: 16px;
 }
+.index-top-filter form input[type='text']:focus {
+  border: 1px solid #fff;
+}
 .index-top-filter form button {
   position: absolute;
   top: 50%;
@@ -567,6 +570,9 @@ main {
   border-radius: 5px;
   background: url('img/filter.svg') no-repeat center;
 }
+.index-top-filter .filter-link:hover {
+  border: 1px solid #fff;
+}
 .index-catalog-block {
   padding-bottom: 100px;
 }
@@ -580,6 +586,9 @@ main {
   margin: 0 6px 8px 6px;
   font-size: 16px;
   line-height: 20px;
+}
+.index-catalog-block .filter a:hover {
+  text-decoration: underline;
 }
 .index-catalog-block .letter {
   text-align: center;
@@ -629,6 +638,7 @@ main {
 }
 .index-catalog-block .list .item:hover {
   box-shadow: 0px 0px 10px 0px rgba(49, 63, 152, 0.1);
+  border: 1px solid #fff;
 }
 .index-catalog-block .list .item:hover .logo {
   background: #1f2c53;
@@ -719,7 +729,8 @@ main {
   font-size: 16px;
   line-height: 20px;
 }
-.index-catalog-block .bottom-pages a.active {
+.index-catalog-block .bottom-pages a.active,
+.index-catalog-block .bottom-pages a:hover {
   color: #fff;
 }
 .index-catalog-block .bottom-pages a.prev {
@@ -806,6 +817,9 @@ main {
   font-weight: 300;
   line-height: 16px;
 }
+.footer nav ul li a:hover {
+  text-decoration: underline;
+}
 .footer .search {
   margin-top: 9px;
 }
@@ -819,11 +833,14 @@ main {
 .footer .search form input[type='text'] {
   width: 100%;
   height: 100%;
-  border: 0.5px solid #ffffff;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   background: none;
   padding: 0 26px;
-  font-weight: 300;
+  color: #fff;
+}
+.footer .search form input[type='text']:focus {
+  border: 1px solid #fff;
 }
 .footer .search ul {
   display: inline-block;
@@ -947,6 +964,9 @@ main {
   text-decoration: none;
   font-size: 16px;
   line-height: 20px;
+}
+.top-menu ul li a:hover {
+  text-decoration: underline;
 }
 .search-page {
   padding-bottom: 94px;
@@ -1179,6 +1199,14 @@ main {
   padding: 25px 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 5px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.reviews-block .list .item:hover {
+  background: #1f2c53;
 }
 .reviews-block .list .item .image {
   border-radius: 5px;
@@ -1352,6 +1380,10 @@ main {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
+  color: #fff;
+}
+.contacts-page form input[type='text']:focus {
+  border: 1px solid #fff;
 }
 .contacts-page form textarea {
   width: 100%;

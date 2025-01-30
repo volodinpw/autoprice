@@ -528,6 +528,9 @@ section, header, footer, nav, main {
 			.cf;
 			.bn;
 			font-size: 16px;
+			&:focus {
+				border: 1px solid #fff;
+			}
 		}
 		button {
 			.try;
@@ -578,6 +581,9 @@ section, header, footer, nav, main {
 		border: 1px solid rgba(255, 255, 255, 0.2);
 		border-radius: 5px;
 		background: url('img/filter.svg') no-repeat center;
+		&:hover {
+			border: 1px solid #fff;
+		}
 	}
 }
 
@@ -592,6 +598,9 @@ section, header, footer, nav, main {
 			margin: 0 6px 8px 6px;
 			font-size: 16px;
 			line-height: 20px;
+			&:hover {
+				.un;
+			}
 		}
 	}
 	.letter {
@@ -634,6 +643,7 @@ section, header, footer, nav, main {
 			.an;
 			&:hover {
 				box-shadow: 0px 0px 10px 0px rgba(49, 63, 152, 0.1);
+				border: 1px solid #fff;
 				.logo {
 					background: rgb(31, 44, 83);
 				}
@@ -712,7 +722,7 @@ section, header, footer, nav, main {
 			color: rgba(255, 255, 255, .3);
 			font-size: 16px;
 			line-height: 20px;
-			&.active {
+			&.active, &:hover {
 				.cf;
 			}
 			&.prev {
@@ -797,6 +807,9 @@ section, header, footer, nav, main {
 					.none;
 					font-weight: 300;
 					line-height: 16px;
+					&:hover {
+						.un;
+					}
 				}
 			}
 		}
@@ -812,11 +825,14 @@ section, header, footer, nav, main {
 			input[type='text'] {
 				.w100;
 				.h100;
-				border: 0.5px solid rgb(255, 255, 255);
+				border: 0.5px solid rgba(255, 255, 255, .2);
 				border-radius: 5px;
 				.bn;
 				padding: 0 26px;
-				font-weight: 300;
+				.cf;
+				&:focus {
+					border: 1px solid #fff;
+				}
 			}
 		}
 		ul {
@@ -944,6 +960,9 @@ section, header, footer, nav, main {
 				.none;
 				font-size: 16px;
 				line-height: 20px;
+				&:hover {
+					.un;
+				}
 			}
 		}
 	}
@@ -1165,6 +1184,10 @@ section, header, footer, nav, main {
 			padding: 25px 30px;
 			border: 1px solid rgba(255, 255, 255, 0.1);
 			border-radius: 5px;
+			.an;
+			&:hover {
+				background: rgb(31, 44, 83);
+			}
 			.image {
 				border-radius: 5px;
 				.w100;
@@ -1336,6 +1359,10 @@ section, header, footer, nav, main {
 			font-size: 16px;
 			font-weight: 300;
 			line-height: 20px;
+			.cf;
+			&:focus {
+				border: 1px solid #fff;
+			}
 		}
 		textarea {
 			.w100;
